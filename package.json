@@ -1,0 +1,41 @@
+{
+  "name": "bettercss",
+  "version": "0.0.1",
+  "description": "Bettercss",
+  "main": "index.js",
+  "keywords": [
+    "bettercss",
+    "css",
+    "toolkit"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bettercss/bettercss.git"
+  },
+  "author": "Mike Bailey <mike@bettercss.io>",
+  "maintainers": [
+    {
+      "name": "Mike Bailey",
+      "email": "mike@bettercss.io"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/bettercss/bettercss/issues"
+  },
+  "homepage": "https://github.com/bettercss/bettercss",
+  "dependencies": {},
+  "devDependencies": {
+    "bettercss-base": "*",
+    "bettercss-components": "*",
+    "bettercss-defaults": "*",
+    "bettercss-utilities": "*",
+    "bettercss-preprocessor": "0.0.5",
+    "cssnano-cli": "^1.0.0"
+  },
+  "scripts": {
+    "css": "bettercss ./src/bettercss.css ./css/bettercss.css",
+    "css:min": "cssnano ./css/bettercss.css ./css/bettercss.min.css --no-autoprefixer",
+    "dist": "npm run css && npm run css:min"
+  }
+}

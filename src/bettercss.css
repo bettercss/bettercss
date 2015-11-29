@@ -1,0 +1,10 @@
+/*
+ * Don't include this file straight into your source this file is used for building files for prototyping.
+ * Please refer to the README for usage.
+ */
+
+@import 'bettercss-base';
+@import 'bettercss-components';
+@import 'bettercss-utilities';
+
+@import 'bettercss-defaults';
