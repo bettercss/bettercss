@@ -2,8 +2,6 @@
 
 Bettercss is a css toolkit that provides base libraries for you to include, and extend upon in your css projects.
 
-The toolkit will never boast itself as a framework nor a complete solution. The compiled source provided is to be used for rapid prototyping, and should not to be included as a final solution unless your going for a seriously minimal style.
-
 ## Install
 
 You can download or install the source from one of the following locations.
